@@ -1,4 +1,4 @@
-# PLEASE NOTE THIS REPO IS GOING THROUGH SOME MAJOR REFACTORING 
+# PLEASE NOTE THIS REPO IS GOING THROUGH SOME MAJOR REFACTORING AND PULLING IN KNATIVE
 
 Current status in here:
 - Working services: app-ui, boards, context-scraper, profile service, and Auth via SSO
