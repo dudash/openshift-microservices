@@ -1,9 +1,10 @@
-# PLEASE NOTE THIS REPO IS IN-WORK 
-We are still building out the core capabilities. Current status:
+# PLEASE NOTE THIS REPO IS GOING THROUGH SOME MAJOR REFACTORING 
+
+Current status in here:
 - Working services: app-ui, boards, context-scraper, profile service, and Auth via SSO
 - Working platform components integrated: Istio
 - Coming soon: search, censor 
-## This header will be removed when the initial version is ready for beta usage
+## The final code probably will live in a different repo/org on github. Will update this readme once that's ready
 [![OpenShift Version][openshift-heximage]][openshift-url]
 
 # Microservices
