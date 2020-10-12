@@ -1,10 +1,11 @@
 # PLEASE NOTE THIS REPO IS GOING THROUGH SOME MAJOR REFACTORING AND PULLING IN KNATIVE
+## The final code probably will live in a different repo/org on github. Will update this readme once that's ready. For now this code and the examples should still work.
 
 Current status in here:
 - Working services: app-ui, boards, context-scraper, profile service, and Auth via SSO
 - Working platform components integrated: Istio
 - Coming soon: search, censor 
-## The final code probably will live in a different repo/org on github. Will update this readme once that's ready
+
 [![OpenShift Version][openshift-heximage]][openshift-url]
 
 # Microservices
