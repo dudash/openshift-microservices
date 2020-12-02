@@ -56,8 +56,8 @@ objects:
     name: ${APPLICATION_NAME}-postgresql
   spec:
     ports:
-    - port: 5432
-      targetPort: 5432
+    - port: 5532
+      targetPort: 5532
       name: tcp-postgres
     selector:
       deploymentConfig: ${APPLICATION_NAME}-postgresql
@@ -169,7 +169,7 @@ objects:
           - containerPort: 8778
             name: jolokia
             protocol: TCP
-          - containerPort: 8080
+          - containerPort: 9090
             name: http
             protocol: TCP
           - containerPort: 8443
