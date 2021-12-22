@@ -1,11 +1,11 @@
-# PLEASE NOTE THIS REPO IS GOING THROUGH SOME MAJOR REFACTORING AND PULLING IN KNATIVE
-## The final code probably will live in a different repo/org on github. Will update this readme once that's ready. For now this code and the examples should still work.
+## THIS REPO IS NOW PART OF A HANDS ON WORKSHOP RUN BY RED HAT
+### Details on that here: [http://redhatgov.io/workshops/openshift_service_mesh/](http://redhatgov.io/workshops/openshift_service_mesh/)
+### Active development here has stopped, find [maintenance updates happening here](https://github.com/RedHatGov/service-mesh-workshop-code)
 
-Current status in here:
 - Working services: app-ui, boards, context-scraper, profile service, and Auth via SSO
 - Working platform components integrated: Istio
-- Coming soon: search, censor 
 
+Latest tested OpenShift version:
 [![OpenShift Version][openshift-heximage]][openshift-url]
 
 # Microservices
@@ -44,9 +44,9 @@ First off, you need access to an OpenShift cluster. Don't have an OpenShift clus
 
 You will also need to install/configure the additional dependencies you plan to leverage. We assume you want to run these in the cluster, so you might need to tweak the install scripts to move things outside or to use already existing shared services in different namespaces.
    - Service Mesh (Istio)
-   - 3Scale - COMING SOON
-   - Kafka - COMING SOON
-   - Caching - COMING SOON
+   - 3Scale - FUTURE
+   - Kafka - FUTURE
+   - Caching - FUTURE
 
 To install everything:
 - [Follow instructions here](./deployment/install/)
@@ -101,5 +101,5 @@ Apache 2.0.
 [1]: https://github.com/dudash/openshift-microservices/issues
 [2]: https://github.com/dudash/openshift-microservices/labels/discussion
 
-[openshift-heximage]: https://img.shields.io/badge/openshift-4.3-BB261A.svg
-[openshift-url]: https://docs.openshift.com/container-platform/4.3/welcome/index.html
+[openshift-heximage]: https://img.shields.io/badge/openshift-4.8-BB261A.svg
+[openshift-url]: https://docs.openshift.com/container-platform/4.8/welcome/index.html
